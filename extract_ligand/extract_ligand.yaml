@@ -1,0 +1,25 @@
+INPUT_FILES:
+  # - sample/1ATP.pdb
+  # - sample/1HSG.pdb
+  # - sample/1STP.pdb
+  # - sample/2HHB.pdb
+  # - sample/3PTB.pdb
+  - sample/1ATP.cif
+  - sample/1HSG.cif
+  - sample/1STP.cif
+  - sample/2HHB.cif
+  - sample/3PTB.cif
+
+OUTPUT_DIR: sample/output
+OUTPUT_EXT: .cif
+
+IGNORE_RESIDUES:
+  - NA
+  - SO4
+  - PO4
+  - NAG
+  - ZN
+  - MN
+  - CA
+
+
